@@ -26,7 +26,7 @@ $('.accept-btn').click(function () {
 
 
 $('.ckeck-btn').click(function () {
-    if ($('.form__input').val('3578965421')) {
+    if ($('.form__input').val() == '3578965421') {
         $('.congratulation').addClass('active');
         $('.daisies-img').addClass('active');
         
@@ -51,6 +51,8 @@ $('.ckeck-btn').click(function () {
         
 
         
+    } else {
+        $('.form__input').val('неверно, ты не Ира')
     }
 })
 

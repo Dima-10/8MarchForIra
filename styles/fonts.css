@@ -1,0 +1,30 @@
+
+@font-face{
+  font-family: 'Marutya Regular';
+  src: url(../fonts/Marutya/Marutya-Regular.ttf);
+}
+@font-face{
+   font-family: 'Citro Regular';
+   src: url(../fonts/Citro/Compotes-Citro.ttf);
+}
+@font-face{
+  font-family: 'Citro Bold';
+  src: url(../fonts/Citro/Compotes-CitroBold.ttf);
+}
+@font-face{
+   font-family: 'Xplor Bold';
+   src: url(../fonts/Xplor/XPLOR-Bold.ttf);
+ }
+@font-face{
+  font-family: 'Raleway Light';
+  src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+@font-face{
+  font-family: 'Raleway Thin';
+  src: url(../fonts/Raleway/Raleway-Thin.ttf);
+}
+@font-face{
+   font-family: 'Raleway Black';
+   src: url(../fonts/Raleway/Raleway-Black.ttf);
+}
+

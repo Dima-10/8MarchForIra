@@ -81,13 +81,13 @@ img{
 .header__content {
     display: flex;
     justify-content: center;
-    margin-top: 170px;
+    margin-top: 135px;
 }
 .header__title {
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 54px;
+    line-height: 54px;
     color: white;
-    
+    font-family: 'Xplor Bold';
     text-shadow: 1px 1px 5px rgba(250, 177, 211, 0.747);
     /*text-shadow: 1px 1px 5px rgb(255, 208, 230);*/
     /*
@@ -98,14 +98,16 @@ img{
     text-align: center;
 }
 .eight {
-    font-size: 250px;
-    line-height: 250px;
+    font-family: 'Xplor Bold';
+    font-size: 285px;
+    line-height: 285px;
 }
 
 .accept-btn {
     color: rgb(255, 190, 220);
     background: white;
     border: none;
+    font-family: 'Xplor Bold';
     border-radius: 50px;
     text-transform: uppercase;
     padding: 30px 40px;
@@ -169,29 +171,37 @@ img{
     border: 2px solid #abdef9;
     color: #abdef9;
     transition: 0.2s;
+    font-family: 'Xplor Bold';
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #abdef9;
+    font-family: 'Xplor Bold';
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color: #abdef9;
+   font-family: 'Xplor Bold';
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color: #abdef9;
+   font-family: 'Xplor Bold';
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color: #abdef9;
+   font-family: 'Xplor Bold';
 }
 
 
 .check-title {
     color: #abdef9;
+    font-size: 30px;
+    font-family: 'Xplor Bold';
 }
 .check-description {
     color: #abdef9;
     font-size: 16px;
     line-height: 20px;
     margin-top: 30px;
+    font-family: 'Xplor Bold';
 }
 .ckeck-btn {
     color: #fff;
@@ -201,6 +211,7 @@ img{
     padding: 10px 20px;
     text-transform: uppercase;
     font-size: 16px;
+    font-family: 'Xplor Bold';
 }
 
 
@@ -234,8 +245,12 @@ img{
 }
 
 .congratulation-text {
+    font-family: 'Marutya Regular';
     color: #abdef9;
     font-size: 20px;
+    font-weight: 700;
     line-height: 22px;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
 }
