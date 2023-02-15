@@ -60,7 +60,7 @@ $('.ckeck-btn').click(function () {
     }
 })
 $('.form__input').click(function () {
-    $('.form__input').val() == '';
+    $('.form__input').val('');
     $('.warnEmpty').removeClass('active');       
     $('.warning').removeClass('active');
 })
