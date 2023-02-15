@@ -51,8 +51,17 @@ $('.ckeck-btn').click(function () {
         
 
         
+    } else if($('.form__input').val() == '') {
+        $('.form__input').val('так не прокатит...');        
+        $('.warnEmpty').addClass('active');
     } else {
-        $('.form__input').val('неверно, ты не Ира')
+        $('.form__input').val('неа, неправильно');        
+        $('.warning').addClass('active');
     }
+})
+$('.form__input').click(function () {
+    $('.form__input').val() == '';
+    $('.warnEmpty').removeClass('active');       
+    $('.warning').removeClass('active');
 })
 
