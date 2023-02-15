@@ -189,9 +189,9 @@ img{
 }
 .check-description {
     color: #abdef9;
-    font-size: 14px;
-    line-height: 18px;
-    margin-top: 27px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
 }
 .ckeck-btn {
     color: #fff;
@@ -235,7 +235,7 @@ img{
 
 .congratulation-text {
     color: #abdef9;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 22px;
     margin-top: 15px;
 }
